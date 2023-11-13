@@ -25,8 +25,8 @@ const App = () => (
               </td>
               {horizontalSquares.map((letter) => (
                 <td
-                  key={`${letter}-${number}`}
-                  className="border border-sky-400 bg-white text-4xl px-3">{letter} {number}</td>
+                  key={`${number}-${letter}`}
+                  className="border border-sky-400 bg-white text-4xl px-3">{number}-{letter}</td>
               ))}
             </tr>
           ))}
