@@ -4,6 +4,32 @@
 const squareNumber = 64
 const horizontalSquares = ["A", "B", "C", "D", "E", "F", "G", "H"]
 const verticalSquares = ["1", "2", "3", "4", "5", "6", "7", "8"]
+const whitePieces = {
+    pawn:{
+        logo: "&#9817;",
+        startingSquare: ["A-7","B-7","C-7","D-7","E-7","F-7","G-7","H-7"]
+    },
+    rook:{
+        logo:"&#9814",
+        startingSquare: ["A-8","H-8"]
+    },
+    knight:{
+        logo:"&#9816",
+        startingSquare: ["A-8","H-8"]
+    },
+    bishop:{
+        logo:"&#9815",
+        startingSquare: ["A-8","H-8"]
+    },
+    queen:{
+        logo:"&#9813",
+        startingSquare: ["A-8"]
+    },
+    king:{
+        logo:"&#9812",
+        startingSquare: ["A-8"]
+    }
+}
 //Controller(function)
 //View
 const ChessBoard = () => (
