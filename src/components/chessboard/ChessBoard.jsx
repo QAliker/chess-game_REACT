@@ -4,6 +4,7 @@
 const squareNumber = 64
 const horizontalSquares = ["A", "B", "C", "D", "E", "F", "G", "H"]
 const verticalSquares = ["1", "2", "3", "4", "5", "6", "7", "8"]
+// For of de l'objet puis foreach de starting square avec condition puis si match on display 
 const whitePieces = {
     pawn:{
         logo: "&#9817;",
