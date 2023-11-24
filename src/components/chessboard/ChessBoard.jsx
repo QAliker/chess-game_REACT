@@ -4,7 +4,7 @@ const verticalSquares = ["1", "2", "3", "4", "5", "6", "7", "8"]
 const ChessBoard = () => (
     <div className="chessboard">
     <div className="flex justify-center">
-    <table className="mt-5">
+    <table className="mt-5 cursor-pointer">
         <tbody>
             <td className="border border-sky-400 bg-slate-400 text-4xl px-3"></td>
             {horizontalSquares.map((letter) => (
